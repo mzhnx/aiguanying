@@ -7,11 +7,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="common-util" />
-        <module name="gec-model" />
-        <module name="auth-security" />
         <module name="gec-service-system" />
+        <module name="gec-model" />
         <module name="service-util" />
+        <module name="common-util" />
+        <module name="auth-security" />
       </profile>
     </annotationProcessing>
   </component>
