@@ -1,0 +1,5 @@
+com\gec\system\config\MybatisplusObjectMetaHandler.class
+com\gec\system\exception\GlobalException.class
+com\gec\system\exception\MyCustomerException.class
+com\gec\system\config\MybatisPlusConfig.class
+com\gec\system\config\Knife4jConfig.class
