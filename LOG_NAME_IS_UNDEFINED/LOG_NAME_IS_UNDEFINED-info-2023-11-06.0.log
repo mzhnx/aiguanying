@@ -1,0 +1,28 @@
+2023-11-06 20:41:04.090 [main] INFO  com.gec.system.ServiceApplication - Starting ServiceApplication on resol with PID 17700 (D:\code_yq\gec-movie-code\gec-service-system\target\classes started by resol in D:\code_yq\gec-movie-code)
+2023-11-06 20:41:04.091 [main] INFO  com.gec.system.ServiceApplication - The following profiles are active: dev
+2023-11-06 20:41:05.027 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-11-06 20:41:05.029 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-11-06 20:41:05.065 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 15ms. Found 0 Redis repository interfaces.
+2023-11-06 20:41:05.372 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@53dad875' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-11-06 20:41:05.375 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-11-06 20:41:05.689 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-11-06 20:41:05.699 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-11-06 20:41:05.700 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-11-06 20:41:05.700 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2023-11-06 20:41:05.850 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-11-06 20:41:05.851 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1720 ms
+2023-11-06 20:41:05.996 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2023-11-06 20:43:51.746 [main] INFO  com.gec.system.ServiceApplication - Starting ServiceApplication on resol with PID 13896 (D:\code_yq\gec-movie-code\gec-service-system\target\classes started by resol in D:\code_yq\gec-movie-code)
+2023-11-06 20:43:51.747 [main] INFO  com.gec.system.ServiceApplication - The following profiles are active: dev
+2023-11-06 20:43:52.698 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-11-06 20:43:52.700 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-11-06 20:43:52.735 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 15ms. Found 0 Redis repository interfaces.
+2023-11-06 20:43:53.045 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@5f780a86' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-11-06 20:43:53.048 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-11-06 20:43:53.302 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-11-06 20:43:53.310 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-11-06 20:43:53.310 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-11-06 20:43:53.310 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2023-11-06 20:43:53.427 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-11-06 20:43:53.427 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1642 ms
+2023-11-06 20:43:53.568 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]

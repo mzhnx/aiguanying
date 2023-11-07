@@ -1,0 +1,62 @@
+server:
+  port: 8085
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl # 查看日志 输出sql 语句的
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/gec-auth?characterEncoding=utf-8&useSSL=false
+    username: root
+    password: 200209
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8
+  redis:
+    host: 127.0.0.1
+    port: 6379
+    database: 0
+    timeout: 1800000
+    password:
+    jedis:
+      pool:
+        max-active: 20 #最大连接数
+        max-wait: -1    #最大阻塞等待时间(负数表示没限制)
+        max-idle: 5    #最大空闲
+        min-idle: 0   #最小空闲
+  servlet:
+    multipart:
+      max-request-size: 500MB
+      max-file-size: 300MB
+# 日志配置
+logging:
+  #日志文件
+  file:
+    #使用相对路径,就会在项目根目录下生成一个info.log文件/www/jar/infohkw.log
+    name: D:\infohkw.log
+  #日志级别 root表示所有包，也可以单独配置具体包 fatal error warn info debug trace off
+  level:
+    root: error
+    com\gec\system\controller: info
+#logPath: D:/logs/
+#logName: admin
+#logBusinessLevel: debug
+#logRootLevel: info
+#logging:
+#  config: classpath:logback-spring.xml  #默认也是这个
+
+
+# 阿里配置
+# 阿里配置
+al:
+  oss: #存储
+    endpoint: oss-cn-guangzhou.aliyuncs.com   # 域
+    accessKeyId: LTAI5tJKs7SoueiuPNAVybUw  # 秘钥
+    accessKeySecret: Gekak0YUFPGfSkLjePb8sSMgKSi9kB # 秘钥
+    bucketName: hkwtong  # 桶名
+    url: https://hkwtong.oss-cn-guangzhou.aliyuncs.com  # 访问地址
+
+  vod: # 视频
+    regionId: cn-shanghai
+    accessKeyId: LTAI5tJKs7SoueiuPNAVybUw #登录账号
+    accessKeySecret: Gekak0YUFPGfSkLjePb8sSMgKSi9kB
