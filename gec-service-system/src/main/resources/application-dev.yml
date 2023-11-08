@@ -7,8 +7,7 @@ spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3306/gec-auth?characterEncoding=utf-8&useSSL=false
-    username: root
-    password: 200209
+
   jackson:
     date-format: yyyy-MM-dd HH:mm:ss
     time-zone: GMT+8
@@ -45,17 +44,3 @@ logging:
 #  config: classpath:logback-spring.xml  #默认也是这个
 
 
-# 阿里配置
-# 阿里配置
-al:
-  oss: #存储
-    endpoint: oss-cn-guangzhou.aliyuncs.com   # 域
-    accessKeyId: LTAI5tJKs7SoueiuPNAVybUw  # 秘钥
-    accessKeySecret: Gekak0YUFPGfSkLjePb8sSMgKSi9kB # 秘钥
-    bucketName: hkwtong  # 桶名
-    url: https://hkwtong.oss-cn-guangzhou.aliyuncs.com  # 访问地址
-
-  vod: # 视频
-    regionId: cn-shanghai
-    accessKeyId: LTAI5tJKs7SoueiuPNAVybUw #登录账号
-    accessKeySecret: Gekak0YUFPGfSkLjePb8sSMgKSi9kB
